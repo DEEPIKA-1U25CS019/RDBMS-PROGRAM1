@@ -1,5 +1,5 @@
-create database colldb;
-use db;
+create database collegedb;
+use collegedb;
 create table department(deptID integer(10) primary key,depName varchar(28),HOD varchar(25));
 desc department;
-
+select* from department;
